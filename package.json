@@ -1,0 +1,19 @@
+{
+  "name": "rollup-css-tree",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npm run build && node dist/bundle.cjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.77.2"
+  },
+  "dependencies": {
+    "css-tree": "^2.1.0"
+  }
+}
